@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./styles/css/fonts.css">
+    <link rel="stylesheet" href="./styles/css/index.css">
+    <link rel="stylesheet" href="./styles/css/media.css">
+    
+</head>
+
+<body>
+
+    <div class="mainSlider">
+        <div class="mainSlider__inner">
+
+
+            <div class="mainSlider__item">
+                <a class="mainSlider__link" href="javascipt://">
+
+                    <div class="mainSlider__img">
+                        <div class="mainSlider__img--mobile">
+                            <img src="./img/img-1.jpg" alt="The August Detox Box">
+                        </div>
+                        <div class="mainSlider__img--desktop">
+                            <img src="./img/img-11.jpg" alt="The August Detox Box">
+                        </div>
+                    </div>
+
+                    <div class="mainSlider__wrap">
+                        <div class="mainSlider__overlay mainSlider__overlay--left ">
+                            <h1>
+                                The August Detox Box
+                            </h1>
+    
+                            <p class="apercu-regular-17 text-dark">
+                                Organic French delicacies for happy, healthy skin.
+                            </p>
+    
+                            <button class="mainSlider__button">
+                                Get The Box
+                            </button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="mainSlider__item">
+                <a class="mainSlider__link" href="javascipt://">
+
+                    <div class="mainSlider__img">
+                        <div class="mainSlider__img--mobile">
+                            <img src="./img/img-1.jpg" alt="The August Detox Box">
+                        </div>
+                        <div class="mainSlider__img--desktop">
+                            <img src="./img/img-11.jpg" alt="The August Detox Box">
+                        </div>
+                    </div>
+
+                    <div class="mainSlider__wrap">
+                        <div class="mainSlider__overlay  mainSlider__overlay--right mainSlider__overlay--light">
+                            <h1>
+                                The August Detox Box
+                            </h1>
+    
+                            <p class="apercu-regular-17 text-dark">
+                                Organic French delicacies for happy, healthy skin.
+                            </p>
+    
+                            <button class="mainSlider__button">
+                                Get The Box
+                            </button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="mainSlider__item">
+                <a class="mainSlider__link" href="javascipt://">
+
+                    <div class="mainSlider__img">
+                        <div class="mainSlider__img--mobile">
+                            <img src="./img/img-1.jpg" alt="The August Detox Box">
+                        </div>
+                        <div class="mainSlider__img--desktop">
+                            <img src="./img/img-11.jpg" alt="The August Detox Box">
+                        </div>
+                    </div>
+
+                    <div class="mainSlider__wrap">
+                        <div class="mainSlider__overlay  mainSlider__overlay--center">
+                            <h1>
+                                The August Detox Box
+                            </h1>
+    
+                            <p class="apercu-regular-17 text-dark">
+                                Organic French delicacies for happy, healthy skin.
+                            </p>
+    
+                            <button class="mainSlider__button">
+                                Get The Box
+                            </button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- <div class="mainSlider__dots"></div> -->
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/index.js"></script>
+
+    <script>
+        $('.mainSlider__inner').slick({
+            fade: true,
+            dots: true,
+            prevArrow: '<a href="javascript://" class="arrow arrow__prev"><img src="./img/right-arrow.svg" alt=""></a>',
+            nextArrow: '<a href="javascript://" class="arrow arrow__next"><img src="./img/right-arrow.svg" alt=""></a>',
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        arrows: false,
+                    }
+                }
+            ]
+        })
+    </script>
+
+
+
+</body>
+
+</html>

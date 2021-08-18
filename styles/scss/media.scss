@@ -1,0 +1,51 @@
+@media screen and (min-width: 992px){
+    .mainSlider{
+        &__img{
+            &--mobile{
+                display: none !important;
+            }
+    
+            &--desktop{
+                display: block !important;
+            }
+        }
+
+        
+    }
+}
+
+@media screen and (max-width: 992px){
+    .mainSlider{
+        &__overlay{
+            padding-right: 20px;
+            padding-left: 20px;
+            box-sizing: border-box;
+            min-width: 100%;
+            &--right{
+                margin: 0px auto;
+            }
+
+            &--left{
+                margin: 0px auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 540px){
+    .mainSlider{
+        &__overlay{
+            h1{
+                font-size: 40px;
+                line-height: 40px;
+                margin-bottom: 20px;
+                // margin-bottom: 0px;
+            }
+
+            p{
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
